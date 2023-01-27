@@ -34,3 +34,9 @@ we talked through some different techniques when debugging your code
 
 ## Day65
 took the review on the debugging techniques we went over and implented a few in previous projects for the challenges
+
+## Day66
+challenge day. built a shooting gallery game from scratch.
+
+## Day67
+started project 19. were building an extension for safari.
