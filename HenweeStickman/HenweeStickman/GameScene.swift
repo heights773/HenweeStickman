@@ -69,28 +69,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     // MARK: - Internal Functions
     
-//    func createAnchor(at postition: CGPoint) {
-//        anchor = SKSpriteNode(imageNamed: "anchor")
-//        
-//        anchor.name = "anchor"
-//        anchor.position = postition
-//        anchor.zPosition = 0
-//        anchor.physicsBody = SKPhysicsBody(circleOfRadius: anchor.size.width / 2)
-//        anchor.physicsBody?.isDynamic = false
-//        anchor.physicsBody?.categoryBitMask = CollisionTypes.anchor.rawValue
-//        anchor.physicsBody?.contactTestBitMask = CollisionTypes.player.rawValue
-//        
-//        let spin = SKAction.rotate(byAngle: CGFloat(2.4), duration: 0.6)
-//        let oppositeSpin = SKAction.rotate(byAngle: CGFloat(-2.4), duration: 0.6)
-//        let sequence = SKAction.sequence([spin, oppositeSpin])
-//        let spinForever = SKAction.repeatForever(sequence)
-//        
-//        anchor.run(spinForever)
-//        
-//        anchorsInGame.append(anchor)
-//        addChild(anchor)
-//    }
-    
     func createSpikeNode(at position: CGPoint) {
         let node = SKSpriteNode(imageNamed: "spikes")
         
